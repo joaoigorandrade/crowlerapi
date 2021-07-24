@@ -4,6 +4,7 @@
   "description": "my first crowlerapi",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
