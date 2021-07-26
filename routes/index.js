@@ -1,13 +1,10 @@
-const express = require("express")
-const router = express.Router()
+const express = require("express");
+
+const controllers = require("../controllers")
+
+const router = express.Router();
+
+router.get("/", controllers.getTitle);
 
 
-router.get("/", (req,res,next)=>{
-    res.status(200).json({
-        message: "ok",
-        data: {
-            "first": "hello world"
-        }
-    })
-})
-module.exports = router
+module.exports = router;

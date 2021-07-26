@@ -4,7 +4,7 @@
   "description": "my first crowlerapi",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "test"
   },
   "repository": {
@@ -24,6 +24,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.1.0"
   }
 }
